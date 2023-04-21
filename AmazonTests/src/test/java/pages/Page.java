@@ -20,8 +20,8 @@ public class Page {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id(elementId)));
     }
 
-    public void click(String tusID){
-        driver.findElement(By.id(tusID)).click();
+    public void click(String buttonID){
+        driver.findElement(By.id(buttonID)).click();
     }
 
     public void writeInTheFieldByID(String elementId, String emailAdress){
